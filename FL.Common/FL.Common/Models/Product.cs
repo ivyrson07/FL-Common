@@ -1,6 +1,6 @@
 ﻿namespace FL.Common.Models
 {
-    public class Catalog
+    public class Product
     {
         public Guid Id { get; set; }
 

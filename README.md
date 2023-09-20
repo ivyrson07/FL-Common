@@ -68,10 +68,11 @@ dotnet pack -c Release -o ./output
 ## Step 5: Publish the Package Locally (Optional)
 
 To test the package locally before publishing it, you can add your local package source using the `nuget sources add` command.
+Example directory of `nuget.exe`, mine would be `C:\LocalNuget\`
 
 ```bash
-cd C:\directory_of_your_nuget_package\FL.Common.1.0.0.nupkg
-C:\directory_of_your_nugetexe\nuget.exe add FL.Common.1.0.0.nupkg -source C:\LocalNuget
+cd C:\directory_of_your_nuget_package
+C:\LocalNuget\nuget.exe add FL.Common.1.0.0.nupkg -source C:\LocalNuget
 ```
 
 OR 
